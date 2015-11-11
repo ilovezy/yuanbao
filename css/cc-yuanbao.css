@@ -1,0 +1,139 @@
+/*
+* @Author: Administrator
+* @Date:   2015-11-11 21:54:55
+* @Last Modified by:   Administrator
+* @Last Modified time: 2015-11-11 23:56:53
+*/
+
+
+/* cover bootstrap */
+
+a {
+    text-decoration: none!important;
+}
+
+.cc-nav-icon {
+    padding-top: 2px;
+}
+
+.cc-nav-icon a {
+    color: white;
+}
+
+
+/* config */
+
+
+/* grey-font-color #4C4949;  orange #f97a31;  pink ED906B*/
+
+.cc-nav {
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.8rem;
+    text-align: center;
+    background: #f97a31;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.cc-btn-pink {
+    background: #ED906B!important;
+    color: white;
+}
+
+.cc-btn-pink:hover,
+.cc-btn-pink:focus,
+.cc-btn-pink:active:focus,
+.cc-btn-pink.active:focus,
+.cc-btn-pink.focus,
+.cc-btn-pink:active.focus,
+.cc-btn-pink.active.focus {
+    color: white;
+    background: #ED906B!important;
+}
+
+.cc-bg-grey {
+    background: #eee!important;
+}
+
+
+/* form */
+
+.cc-form {
+    margin-top: 2rem;
+    padding-left: 15px;
+    padding-right: 15px;
+    background: white;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.cc-form .cc-flat-input {
+    font-size: 1.6rem;
+    display: block;
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #ccc;
+    height: 50px;
+    line-height: 50px;
+}
+
+.cc-form .cc-flat-input:last-child {
+    border-bottom: none;
+}
+
+
+/* 找回密码 */
+
+.cc-form-group {
+    border-bottom: 1px solid #ccc;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.6rem;
+}
+
+.cc-form-group .col-xs-4 {
+    padding-left: 0;
+}
+
+.cc-form-group .cc-flat-input {
+    height: 49px;
+    /* 这里少一px可以防止下边框覆盖 */
+}
+
+.cc-form-group:last-child {
+    border-bottom: none;
+}
+
+
+/* footer */
+
+.cc-footer-fit {
+    height: 90px;
+}
+
+.cc-footer {
+    background: white;
+    height: 70px;
+    width: 100%;
+    position: fixed!important;
+    bottom: 0;
+    border-top: 1px solid #ddd;
+    padding-top: 0.8rem;
+    padding-bottom: 0.3rem;
+    z-index: 1000;
+}
+
+.cc-footer img {
+    width: 35px;
+    height: 35px;
+    margin-bottom: 0.3rem;
+}
+
+.cc-footer p {
+    color: #aaa;
+    font: 2rem;
+}

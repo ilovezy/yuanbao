@@ -5,23 +5,141 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <title></title>
+    <title>首页</title>
     <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
-    <!-- <link rel="stylesheet" type="text/css" href="bower_components/font-awesome/css/font-awesome.min.css"> -->
-    <!-- <link rel="stylesheet" type="text/css" href="bower_components/Materialize/dist/css/materialize.min.css"> -->
-    <!-- <link rel="stylesheet" type="text/css" href="bower_components/semantic/dist/semantic.min.css"> -->
+    <link rel="stylesheet" type="text/css" href="css/cc-yuanbao.css">
+    <style>
+    .cc-selector-list {
+        padding: 0;
+    }
+    
+    .cc-selector-list a {
+        display: block;
+        color: #4C4949;
+    }
+    
+    .cc-selector-list-item {
+        border: 1px solid #ddd;
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .cc-selector-list-item:hover {
+        background: #eee;
+    }
+    
+    .cc-selector-list-item img {
+        width: 46px;
+        height: 40px;
+        margin-bottom: 1rem;
+    }
+    
+    .cc-selector-list-item p {
+        font-size: 1.6rem;
+    }
+    </style>
 </head>
 
 <body>
-    <div class="container">
-        <h1 class="text-center"></h1>
+    <!-- top -->
+    <div class="cc-user-header">
+        <img src="img/index/top.png" class="img-responsive">
+    </div>
 
+    <!-- selector list -->
+    <div class="container-fluid text-center">
+        <div class="row cc-selector-list">
+            <div class="col-xs-4 cc-selector-list-item">
+                <a href="#">
+                    <img src="img/index/jubaopeng.jpg">
+                    <p>聚宝盆</p>
+                </a>
+            </div>
+            <div class="col-xs-4 cc-selector-list-item">
+                <a href="#">
+                    <img src="img/index/yuanbaodian.jpg">
+                    <p>元宝店</p>
+                </a>
+            </div>
+            <div class="col-xs-4 cc-selector-list-item">
+                <a href="#">
+                    <img src="img/index/gerenzhanghu.jpg">
+                    <p>个人账户</p>
+                </a>
+            </div>
+            <div class="col-xs-4 cc-selector-list-item">
+                <a href="#">
+                    <img src="img/index/tuiguangguangchang.jpg">
+                    <p>推广广场</p>
+                </a>
+            </div>
+            <div class="col-xs-4 cc-selector-list-item">
+                <a href="#">
+                    <img src="img/index/gouwuche.jpg">
+                    <p>购物车</p>
+                </a>
+            </div>
+            <div class="col-xs-4 cc-selector-list-item">
+                <a href="#">
+                    <img src="img/index/wodedingdan.jpg">
+                    <p>我的订单</p>
+                </a>
+            </div>
+            <div class="col-xs-4 cc-selector-list-item">
+                <a href="#">
+                    <img src="img/index/wodetuiguang.jpg">
+                    <p>我的推广</p>
+                </a>
+            </div>
+            <div class="col-xs-4 cc-selector-list-item">
+                <a href="#">
+                    <img src="img/index/wodexiaoxi.jpg">
+                    <p>我的消息</p>
+                </a>
+            </div>
+            <div class="col-xs-4 cc-selector-list-item">
+                <a href="#">
+                    <img src="img/index/zhitongche.jpg">
+                    <p>直通车</p>
+                </a>
+            </div>
+        </div>
+    </div>
 
+    <!-- footer -->
+    <div class="cc-footer-fit"></div>
+    <div class="container text-center cc-footer">
+        <div class="row">
+            <div class="col-xs-3">
+                <a href="findPassword.html">
+                    <img src="img/index/shouye.jpg">
+                    <p>首页</p>
+                </a>
+            </div>
+            <div class="col-xs-3">
+                <a href="changePassword.html">
+                    <img src="img/index/shequn.jpg" style="width: 43px;">
+                    <p>社群</p>
+                </a>
+            </div>
+            <div class="col-xs-3">
+                <a href="transmissionChains.html">
+                    <img src="img/index/chuanbolian.jpg">
+                    <p>传播链</p>
+                </a>
+            </div>
+            <div class="col-xs-3">
+                <a href="index.html">
+                    <img src="img/index/wode.jpg">
+                    <p>我的</p>
+                </a>
+            </div>
+        </div>
     </div>
 
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-    <!-- <script src="bower_components/angular/angular.min.js"></script> -->
     <script>
     </script>
 </body>
