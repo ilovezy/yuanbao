@@ -1,8 +1,8 @@
 /*
 * @Author: Administrator
 * @Date:   2015-11-11 21:54:55
-* @Last Modified by:   Administrator
-* @Last Modified time: 2015-11-11 23:56:53
+* @Last Modified by:   fhc
+* @Last Modified time: 2015-11-12 14:35:30
 */
 
 
@@ -24,21 +24,103 @@ a {
 /* config */
 
 
-/* grey-font-color #4C4949;  orange #f97a31;  pink ED906B*/
+/* index 九宫格 */
+
+.cc-selector-list {
+    padding: 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.cc-selector-list a {
+    display: block;
+    color: #4C4949;
+}
+
+.cc-selector-list-item {
+    border-top: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    padding: 1.5rem 0 0.5rem 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.cc-selector-list-item:hover {
+    background: #eee;
+}
+
+.cc-selector-list-item img {
+    width: 46px;
+    height: 40px;
+    margin-bottom: 0.5rem;
+}
+
+.cc-selector-list-item p {
+    font-size: 1.6rem;
+}
+
+
+/* userAccount */
+
+.cc-countcard {
+    height: 80px;
+    line-height: 80px;
+    font-size: 1.6rem;
+    border-bottom: 1px solid #ddd;
+}
+
+.cc-countcard .cc-countcard-item-action>div {
+    height: 40px;
+    line-height: 40px;
+}
+
+.cc-countcard>div {
+    float: left;
+}
+
+.cc-countcard-item-img,
+.cc-countcard-item-name {
+    width: 20%;
+}
+
+.cc-countcard-item-action {
+    width: 60%;
+    padding-right: 15px;
+}
+
+.cc-img img {
+    height: 45px;
+}
+
+.cc-userAccount-main {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+
+/* grey-font-color #4C4949;  orange #ff6600;  pink #ff6349 yellow #ffae29*/
+
+.cc-text-pink {
+    color: #ff6349
+}
+
+.cc-text-yellow {
+    color: #ffae29
+}
 
 .cc-nav {
     height: 50px;
     line-height: 50px;
     font-size: 1.8rem;
     text-align: center;
-    background: #f97a31;
+    background: #ff6600;
     color: white;
     padding-left: 15px;
     padding-right: 15px;
+    overflow: hidden;
+    /* clearfix */
 }
 
 .cc-btn-pink {
-    background: #ED906B!important;
+    background: #ff6349!important;
     color: white;
 }
 
@@ -50,11 +132,15 @@ a {
 .cc-btn-pink:active.focus,
 .cc-btn-pink.active.focus {
     color: white;
-    background: #ED906B!important;
+    background: #ff6349!important;
 }
 
 .cc-bg-grey {
-    background: #eee!important;
+    background: #f3f3f3!important;
+}
+
+.cc-bg-white {
+    background: white;
 }
 
 
