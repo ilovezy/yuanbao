@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2015-11-11 21:54:55
 * @Last Modified by:   fhc
-* @Last Modified time: 2015-11-12 15:08:23
+* @Last Modified time: 2015-11-12 15:56:12
 */
 
 
@@ -149,7 +149,61 @@ a {
 }
 
 
+/* transmissionChains */
+
+.cc-card-list {
+    border-top: 1px solid #ddd;
+}
+
+.cc-tc-user {
+    border-bottom: 1px solid #ddd;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    height: 80px;
+}
+
+.cc-tc-user .cc-avatar-2 {
+    height: 50px;
+}
+
+.cc-tc-user .username {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.cc-tc-user .userid {
+    font-size: 1.5rem;
+}
+
+.cc-tc-user .glyphicon {
+    padding-top: 15px;
+    color: #bbb;
+}
+
+.cc-tc-fans .col-xs-6 {
+    text-align: center;
+    border-right: 1px solid #ddd;
+    padding-top: 1rem;
+    font-size: 1.8rem;
+    color: #bbb;
+}
+
+.cc-tc-fans .col-xs-6 span {
+    margin-bottom: 0.5rem;
+}
+
+.cc-card-list-item .cc-avatar-2 {
+    height: 60px;
+    line-height: 60px;
+    margin-top: 5px;
+}
+
+
 /* grey-font-color #4C4949;  orange #ff6600;  pink #ff6349 yellow #ffae29*/
+
+.cc-text-orange {
+    color: #ff6600
+}
 
 .cc-text-pink {
     color: #ff6349
