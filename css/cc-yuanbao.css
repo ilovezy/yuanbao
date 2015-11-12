@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2015-11-11 21:54:55
 * @Last Modified by:   fhc
-* @Last Modified time: 2015-11-12 14:35:30
+* @Last Modified time: 2015-11-12 15:08:23
 */
 
 
@@ -93,6 +93,59 @@ a {
 .cc-userAccount-main {
     border-top: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
+}
+
+
+/* userInfo */
+
+.cc-userInfo-main {
+    border-top: 1px solid #ddd;
+}
+
+.cc-userInfo-main .cc-readable {
+    letter-spacing: 0.5rem;
+}
+
+.cc-userInfo-main .cc-readable-1 {
+    letter-spacing: 0.3rem;
+}
+
+.cc-card-list-item.with-avatar {
+    height: 90px;
+    line-height: 90px;
+    border-bottom: 1px solid #ddd;
+}
+
+.cc-card-list-item {
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #ddd;
+}
+
+.cc-card-list-item .cc-title {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.cc-card-list-item.with-avatar .cc-content {
+    height: 90px;
+    padding-top: 10px;
+}
+
+.cc-card-list-item .cc-content {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #ccc;
+}
+
+.cc-card-list-item .glyphicon {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+
+.cc-card-list-item .cc-avatar {
+    width: 70px;
+    height: 70px;
 }
 
 
