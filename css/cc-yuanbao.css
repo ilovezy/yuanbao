@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2015-11-11 21:54:55
 * @Last Modified by:   Administrator
-* @Last Modified time: 2015-11-12 18:38:43
+* @Last Modified time: 2015-11-13 21:33:48
 */
 
 
@@ -201,6 +201,116 @@ a {
     height: 60px;
     line-height: 60px;
     margin-top: 5px;
+}
+
+
+/* promote myPromote */
+
+.cc-promote-nav {
+    background: #F7F7F7;
+    /* 这是特殊的灰色 */
+    border-bottom: 1px solid #ddd;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+}
+
+.cc-promote-nav img {
+    width: 40px;
+    height: 40px;
+}
+
+.cc-promote-nav .btn-group {
+    margin: 0 auto;
+}
+
+.cc-promote-nav .btn-group .btn {
+    padding-bottom: 0.5rem;
+    border-color: #4C4949;
+}
+
+.cc-promote-nav .btn-group .btn.active {
+    background: #4C4949;
+    color: white;
+}
+
+.cc-promote-card {
+    background: white;
+    border-bottom: 1px solid #ddd;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.cc-promote-card:first-child {
+    border-top: 1px solid #ddd;
+}
+
+.cc-promote-card .cc-promote-time {
+    color: #aaa;
+    margin-bottom: 1rem;
+}
+
+.cc-promote-card .cc-promote-img {
+    width: 50px;
+    height: 50px;
+    float: right;
+}
+
+.cc-promote-card .cc-promote-share {
+    font-size: 1.6rem;
+    color: #aaa;
+}
+
+.cc-promote-card .cc-promote-note {
+    font-size: 1.7rem;
+    padding-left: 0;
+    color: #4C4949;
+}
+
+.cc-promote-card .share-point {
+    font-size: 1.6rem;
+    margin-top: 1rem;
+    color: #ff6600;
+    margin-left: 1rem;
+}
+
+.cc-promote-card .cc-share-btn {
+    padding: 0.1rem 0.3rem;
+    font-size: 1.6rem;
+    color: #aaa;
+    border: 1px solid #4C4949;
+    border-radius: 4px;
+}
+
+.cc-promote-card .cc-share-btn img {
+    width: 1.6rem;
+    height: 1.6rem;
+    margin-top: -0.2rem;
+}
+
+
+/* myPromote的用户头像信息 */
+
+.cc-promote-user {
+    height: 55px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 1rem;
+    overflow: hidden;
+    margin-left: 1.5rem;
+    margin-top: -3px;
+}
+
+.cc-promote-user .col-xs-3 {
+    margin-left: -2rem;
+    margin-right: 0;
+}
+
+.cc-promote-user .col-xs-9 {
+    padding-left: 1rem;
+}
+
+.cc-promote-user .cc-promote-username {
+    font-size: 2rem;
+    padding-top: 10px;
 }
 
 
