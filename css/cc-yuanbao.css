@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2015-11-11 21:54:55
 * @Last Modified by:   Administrator
-* @Last Modified time: 2015-11-14 10:56:55
+* @Last Modified time: 2015-11-14 12:17:30
 */
 
 
@@ -203,6 +203,10 @@ a {
     margin-top: 5px;
 }
 
+.cc-card-list-item .col-xs-7 {
+    font-size: 1.6rem;
+}
+
 
 /* promote myPromote */
 
@@ -317,12 +321,8 @@ a {
 /* community search-bar */
 
 .cc-search-bar {
-    padding: 1rem;
-    border-bottom: 1px solid #ddd;
-}
-
-.cc-search-bar {
-    padding: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     border-bottom: 1px solid #ddd;
 }
 
@@ -392,6 +392,48 @@ a {
 
 .color-blue {
     color: #428bca;
+}
+
+
+/* yuanbaoMedia */
+
+.cc-media-card-item {
+    border-bottom: 1px solid #ddd;
+    overflow: hidden;
+    padding: 1rem;
+}
+
+.cc-media-card-item>div {
+    float: left;
+}
+
+.cc-media-img {
+    width: 80px;
+    height: 80px;
+}
+
+.cc-media-img img {
+    width: 80px;
+    height: 80px;
+}
+
+.cc-media-card-content {
+    text-wrap: nowrap;
+    float: left;
+    padding-left: 1rem;
+}
+
+.cc-media-card-title {
+    font-size: 1.8rem!important;
+    font-weight: 600;
+    color: black!important;
+    margin-top: -3px;
+}
+
+.cc-media-card-content p {
+    font-size: 1.4rem;
+    color: #bbb;
+    margin-bottom: 1px;
 }
 
 
